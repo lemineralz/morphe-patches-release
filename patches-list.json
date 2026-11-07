@@ -1,0 +1,33 @@
+{
+  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
+  "version": "1.0.2-dev.1",
+  "patches": [
+    {
+      "name": "BKD Presensi map and device ID",
+      "description": "Choose app location and API device ID",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "dev.pti.bkdattendance",
+          "name": "Jatim Presensi",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.11.21",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}
